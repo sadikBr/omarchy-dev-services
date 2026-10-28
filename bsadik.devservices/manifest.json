@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "bsadik.devservices",
+  "name": "Dev services",
+  "version": "1.0.0",
+  "author": "bsadik",
+  "description": "Docker containers and local dev servers in the bar, with start, stop, logs and open-in-browser",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Dev services",
+    "description": "Running containers and listening dev servers",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
